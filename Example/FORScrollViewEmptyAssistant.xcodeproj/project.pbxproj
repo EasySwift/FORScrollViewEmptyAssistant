@@ -23,6 +23,18 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		756F058B27A779CD0F46EC20 /* Pods_FORScrollViewEmptyAssistant_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3604D49AA5C2F3D2CBCE4A4 /* Pods_FORScrollViewEmptyAssistant_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DE15216C1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DE15216A1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE15216F1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1521681DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework */; };
+		DE1521701DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE1521681DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE15217D1DABE5E000A01D27 /* FOREmptyAssistantConfiger.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1521791DABE5E000A01D27 /* FOREmptyAssistantConfiger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE15217E1DABE5E000A01D27 /* FOREmptyAssistantConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE15217A1DABE5E000A01D27 /* FOREmptyAssistantConfiger.m */; };
+		DE15217F1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = DE15217B1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1521801DABE5E000A01D27 /* FORScrollViewEmptyAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = DE15217C1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.m */; };
+		DE1521841DABE5FD00A01D27 /* blank_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1521811DABE5FD00A01D27 /* blank_button@2x.png */; };
+		DE1521851DABE5FD00A01D27 /* blank_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1521821DABE5FD00A01D27 /* blank_button@3x.png */; };
+		DE15218C1DABE9B200A01D27 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1521881DABE6C600A01D27 /* DZNEmptyDataSet.framework */; };
+		DE15219A1DABED2400A01D27 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1521981DABED2400A01D27 /* UIScrollView+EmptyDataSet.h */; };
+		DE15219B1DABED2400A01D27 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1521991DABED2400A01D27 /* UIScrollView+EmptyDataSet.m */; };
 		F014EBB11CED53E800FED264 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = F014EBB01CED53E800FED264 /* launch.xib */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +46,28 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = FORScrollViewEmptyAssistant;
 		};
+		DE15216D1DABE51300A01D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1521671DABE51300A01D27;
+			remoteInfo = FORScrollViewEmptyAssistant_iOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE1521741DABE51300A01D27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE1521701DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1AD138E7204830EE5FC57E7B /* FORScrollViewEmptyAssistant.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FORScrollViewEmptyAssistant.podspec; path = ../FORScrollViewEmptyAssistant.podspec; sourceTree = "<group>"; };
@@ -65,6 +98,20 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B3604D49AA5C2F3D2CBCE4A4 /* Pods_FORScrollViewEmptyAssistant_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FORScrollViewEmptyAssistant_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7F0CE2FEDB72AEE001A8CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE1521681DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FORScrollViewEmptyAssistant_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE15216A1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FORScrollViewEmptyAssistant_iOS.h; sourceTree = "<group>"; };
+		DE15216B1DABE51300A01D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1521791DABE5E000A01D27 /* FOREmptyAssistantConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOREmptyAssistantConfiger.h; path = ../../FORScrollViewEmptyAssistant/Classes/FOREmptyAssistantConfiger.h; sourceTree = "<group>"; };
+		DE15217A1DABE5E000A01D27 /* FOREmptyAssistantConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOREmptyAssistantConfiger.m; path = ../../FORScrollViewEmptyAssistant/Classes/FOREmptyAssistantConfiger.m; sourceTree = "<group>"; };
+		DE15217B1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FORScrollViewEmptyAssistant.h; path = ../../FORScrollViewEmptyAssistant/Classes/FORScrollViewEmptyAssistant.h; sourceTree = "<group>"; };
+		DE15217C1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FORScrollViewEmptyAssistant.m; path = ../../FORScrollViewEmptyAssistant/Classes/FORScrollViewEmptyAssistant.m; sourceTree = "<group>"; };
+		DE1521811DABE5FD00A01D27 /* blank_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank_button@2x.png"; sourceTree = "<group>"; };
+		DE1521821DABE5FD00A01D27 /* blank_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank_button@3x.png"; sourceTree = "<group>"; };
+		DE1521861DABE61600A01D27 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = "Pods/../build/Debug-iphoneos/DZNEmptyDataSet/DZNEmptyDataSet.framework"; sourceTree = "<group>"; };
+		DE1521881DABE6C600A01D27 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = "/Users/yxj/Library/Developer/Xcode/DerivedData/FORScrollViewEmptyAssistant-eyopldnhsgbqlicbdlcsotsgdtst/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework"; sourceTree = "<absolute>"; };
+		DE1521961DABECC300A01D27 /* FORScrollViewEmptyAssistant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FORScrollViewEmptyAssistant.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FORScrollViewEmptyAssistant-eyopldnhsgbqlicbdlcsotsgdtst/Build/Products/Debug-iphonesimulator/FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant.framework"; sourceTree = "<group>"; };
+		DE1521981DABED2400A01D27 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h"; sourceTree = SOURCE_ROOT; };
+		DE1521991DABED2400A01D27 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.m"; sourceTree = SOURCE_ROOT; };
 		F014EBB01CED53E800FED264 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = "<group>"; };
 		F93C100435DA870E3A245D68 /* Pods-FORScrollViewEmptyAssistant_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FORScrollViewEmptyAssistant_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FORScrollViewEmptyAssistant_Tests/Pods-FORScrollViewEmptyAssistant_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +123,8 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				DE15218C1DABE9B200A01D27 /* DZNEmptyDataSet.framework in Frameworks */,
+				DE15216F1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				756F058B27A779CD0F46EC20 /* Pods_FORScrollViewEmptyAssistant_Example.framework in Frameworks */,
 			);
@@ -89,6 +138,13 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				56B31E28476F70C066306337 /* Pods_FORScrollViewEmptyAssistant_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1521641DABE51300A01D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +168,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FORScrollViewEmptyAssistant */,
 				6003F5B5195388D20070C39A /* Tests */,
+				DE1521691DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				4FE4106310A8DF7F31F344A1 /* Pods */,
@@ -123,6 +180,7 @@
 			children = (
 				6003F58A195388D20070C39A /* FORScrollViewEmptyAssistant_Example.app */,
 				6003F5AE195388D20070C39A /* FORScrollViewEmptyAssistant_Tests.xctest */,
+				DE1521681DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +188,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE1521961DABECC300A01D27 /* FORScrollViewEmptyAssistant.framework */,
+				DE1521861DABE61600A01D27 /* DZNEmptyDataSet.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -196,7 +256,47 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		DE1521691DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE15216A1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.h */,
+				DE1521791DABE5E000A01D27 /* FOREmptyAssistantConfiger.h */,
+				DE15217A1DABE5E000A01D27 /* FOREmptyAssistantConfiger.m */,
+				DE15217B1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.h */,
+				DE15217C1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.m */,
+				DE1521981DABED2400A01D27 /* UIScrollView+EmptyDataSet.h */,
+				DE1521991DABED2400A01D27 /* UIScrollView+EmptyDataSet.m */,
+				DE1521831DABE5FD00A01D27 /* Assets */,
+				DE15216B1DABE51300A01D27 /* Info.plist */,
+			);
+			path = FORScrollViewEmptyAssistant_iOS;
+			sourceTree = "<group>";
+		};
+		DE1521831DABE5FD00A01D27 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE1521811DABE5FD00A01D27 /* blank_button@2x.png */,
+				DE1521821DABE5FD00A01D27 /* blank_button@3x.png */,
+			);
+			name = Assets;
+			path = ../../FORScrollViewEmptyAssistant/Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE1521651DABE51300A01D27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15217D1DABE5E000A01D27 /* FOREmptyAssistantConfiger.h in Headers */,
+				DE15219A1DABED2400A01D27 /* UIScrollView+EmptyDataSet.h in Headers */,
+				DE15217F1DABE5E000A01D27 /* FORScrollViewEmptyAssistant.h in Headers */,
+				DE15216C1DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* FORScrollViewEmptyAssistant_Example */ = {
@@ -209,10 +309,12 @@
 				6003F588195388D20070C39A /* Resources */,
 				BDC1E1EE549152B3B1F5F59B /* 📦 Embed Pods Frameworks */,
 				37463825655F2C26C201C207 /* 📦 Copy Pods Resources */,
+				DE1521741DABE51300A01D27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE15216E1DABE51300A01D27 /* PBXTargetDependency */,
 			);
 			name = FORScrollViewEmptyAssistant_Example;
 			productName = FORScrollViewEmptyAssistant;
@@ -240,6 +342,24 @@
 			productReference = 6003F5AE195388D20070C39A /* FORScrollViewEmptyAssistant_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DE1521671DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1521731DABE51300A01D27 /* Build configuration list for PBXNativeTarget "FORScrollViewEmptyAssistant_iOS" */;
+			buildPhases = (
+				DE1521631DABE51300A01D27 /* Sources */,
+				DE1521641DABE51300A01D27 /* Frameworks */,
+				DE1521651DABE51300A01D27 /* Headers */,
+				DE1521661DABE51300A01D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FORScrollViewEmptyAssistant_iOS;
+			productName = FORScrollViewEmptyAssistant_iOS;
+			productReference = DE1521681DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,11 +367,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FOR;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = XcodeYang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5N5628A342;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					DE1521671DABE51300A01D27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -270,6 +397,7 @@
 			targets = (
 				6003F589195388D20070C39A /* FORScrollViewEmptyAssistant_Example */,
 				6003F5AD195388D20070C39A /* FORScrollViewEmptyAssistant_Tests */,
+				DE1521671DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +419,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1521661DABE51300A01D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1521851DABE5FD00A01D27 /* blank_button@3x.png in Resources */,
+				DE1521841DABE5FD00A01D27 /* blank_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +545,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE1521631DABE51300A01D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1521801DABE5E000A01D27 /* FORScrollViewEmptyAssistant.m in Sources */,
+				DE15219B1DABED2400A01D27 /* UIScrollView+EmptyDataSet.m in Sources */,
+				DE15217E1DABE5E000A01D27 /* FOREmptyAssistantConfiger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -415,6 +562,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* FORScrollViewEmptyAssistant_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		DE15216E1DABE51300A01D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1521671DABE51300A01D27 /* FORScrollViewEmptyAssistant_iOS */;
+			targetProxy = DE15216D1DABE51300A01D27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -451,14 +603,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -491,13 +648,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -517,10 +679,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5N5628A342;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant-Prefix.pch";
 				INFOPLIST_FILE = "FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,10 +698,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5N5628A342;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant-Prefix.pch";
 				INFOPLIST_FILE = "FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,6 +715,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F93C100435DA870E3A245D68 /* Pods-FORScrollViewEmptyAssistant_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -573,6 +740,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2879C1A0E2D21FDB91571E20 /* Pods-FORScrollViewEmptyAssistant_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -586,6 +754,76 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FORScrollViewEmptyAssistant_Example.app/FORScrollViewEmptyAssistant_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		DE1521711DABE51300A01D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FORScrollViewEmptyAssistant_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.FORScrollViewEmptyAssistant-iOS";
+				PRODUCT_MODULE_NAME = FORScrollViewEmptyAssistant_iOS;
+				PRODUCT_NAME = FORScrollViewEmptyAssistant_iOS;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE1521721DABE51300A01D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FORScrollViewEmptyAssistant_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.FORScrollViewEmptyAssistant-iOS";
+				PRODUCT_MODULE_NAME = FORScrollViewEmptyAssistant_iOS;
+				PRODUCT_NAME = FORScrollViewEmptyAssistant_iOS;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -615,6 +853,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1521731DABE51300A01D27 /* Build configuration list for PBXNativeTarget "FORScrollViewEmptyAssistant_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1521711DABE51300A01D27 /* Debug */,
+				DE1521721DABE51300A01D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
